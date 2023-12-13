@@ -9,7 +9,7 @@ $parametres = [
 
 // Gérer des paramètres pour la requête
 $params = [
-    CURLOPT_URL => "http://127.0.0.1/ws/",
+    CURLOPT_URL => "http://127.0.0.1/ExercicesPHP/ws/",
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_POST => true,
     CURLOPT_POSTFIELDS => $parametres,
